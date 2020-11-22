@@ -24,12 +24,12 @@
         <nav>
     </body> 
             <p align:"center"></p>
-            <a href="index.html">Home</a>
-            <a href="earth.html">Earth</a>
-            <a href="jupiter.html">Jupiter</a>
-            <a href="mars.html">Mars</a>
-            <a href="mercury.html">Mercury</a>
-            <a href="venus.html">Venus</a>
+            <a href="index.php">Home</a>
+            <a href="earth.php">Earth</a>
+            <a href="jupiter.php">Jupiter</a>
+            <a href="mars.php">Mars</a>
+            <a href="mercury.php">Mercury</a>
+            <a href="venus.php">Venus</a>
             <p align="center">                
             <img src="img/earth.jpg" height="450">
             </p>
