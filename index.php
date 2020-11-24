@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+        <title>The Solar System</title>
         <link  href="css/styles.css" rel="stylesheet" type="text/css" />
    
 </head>
@@ -13,23 +14,10 @@
     <body style="background-color:black;  color:white">
         <header>
             <p align:"center">
-            <h1> The Solar System </h1>
-            </p>
-        </header>
-        <hr />
-        <br>
-        <nav>
-    </body>
-            <body class='text-center'>
-            <a href="index.php">Home</a>
-            <a href="earth.php">Earth</a>
-            <a href="jupiter.php">Jupiter</a>
-            <a href="mars.php">Mars</a>
-            <a href="mercury.php">Mercury</a>
-            <a href="venus.php">Venus</a>
-            <p align="center">  
-            <br>
-            <br>
+            
+            <%- include('partials/header.ejs') %>    
+                
+            <h1> Welcome To The Solar System Site! </h1>
             <img src="img/solarsystem.jpg" height="1265">
             <br>
             <br>
@@ -43,4 +31,7 @@
             <br>
             <br>
             <br>
-          
+            
+             <%- include('partials/footer.ejs') %>    
+</body>
+</html>
